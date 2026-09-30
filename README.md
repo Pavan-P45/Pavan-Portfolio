@@ -1,4 +1,4 @@
-# Pavan P. - Personal Portfolio
+# Pavan P - Personal Portfolio
 
 A professional and responsive personal portfolio website built with React and Vite. It showcases my technical skills, education, experience, projects, and contact information.
 
