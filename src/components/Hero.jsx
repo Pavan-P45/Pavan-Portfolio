@@ -16,7 +16,7 @@ function Hero() {
         </p>
         <div className="hero-buttons">
         <a href="#projects" className="btn primary-btn">View My Work</a>
-        <a href="/Resume.pdf" download="Pavan-P-Resume.pdf" className="btn secondary-btn">Download Resume</a>
+        <a href={`${import.meta.env.BASE_URL}Resume.pdf`} download="Pavan-P-Resume.pdf" className="btn secondary-btn">Download Resume</a>
         <a href="https://github.com/Pavan-P45" target="_blank" rel="noreferrer" className="btn secondary-btn">GitHub ↗</a>
         <a href="#contact" className="btn secondary-btn">Contact Me</a>
         </div>
