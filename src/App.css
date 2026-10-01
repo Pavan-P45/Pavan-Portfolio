@@ -499,18 +499,27 @@
   font-size: 13px;
 }
 
+/* Mobile Navigation */
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
 /*RESPONSIVE DESIGN */
 
 @media (max-width: 768px) {
   /* NAVBAR */
-.navbar-container {
-    padding: 18px 20px;
-    flex-wrap: wrap;
-  }
   .menu-toggle {
     display: block;
-    order: 1;
   }
+
+  .navbar-container {
+    justify-content: flex-start;
+  }
+
   .logo {
     order: 2;
     font-size: 22px;
@@ -680,12 +689,4 @@
     transition: none !important;
     scroll-behavior: auto !important;
   }
-}
-/* Mobile Navigation */
-.menu-toggle {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 28px;
-  cursor: pointer;
 }
