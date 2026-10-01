@@ -21,6 +21,7 @@
 .logo {
   font-size: 24px;
   font-weight: 700;
+  white-space: nowrap;
 }
 .nav-links {
   display: flex;
@@ -505,12 +506,15 @@
   .navbar-container {
     padding: 18px 20px;
   }
-  .nav-links {
-    gap: 14px;
-  }
-  .nav-links a {
-    font-size: 13px;
-  }
+.nav-links {
+  gap: 14px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.nav-links a {
+  font-size: 13px;
+  flex-shrink: 0;
+}
 
   /* HERO */
   .hero {
